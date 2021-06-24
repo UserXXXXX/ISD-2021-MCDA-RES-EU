@@ -71,7 +71,7 @@ def entropy(X):
 rok = '2018'
 model_option = "K"
 path = 'C:/Informatyka/RES/dataset/'
-file="RE_DATASET_" + rok + "_datasetTW" + model_option + ".csv"
+file="RES_DATASET_" + rok + ".csv"
 
 pathfile = os.path.join(path, file)
 dane = pd.read_csv(pathfile)
